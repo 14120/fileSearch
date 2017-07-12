@@ -127,7 +127,7 @@ namespace fileSearch
                 {
                     foreach (ListViewItem lvi in listView.Items)
                     {
-                        tw.WriteLine(lvi.Text + ";" + lvi.SubItems[1].Text + ";" + lvi.SubItems[2].Text);
+                        tw.WriteLine(lvi.Text + ";" + lvi.SubItems[1].Text);
                     }
                 }
             }
